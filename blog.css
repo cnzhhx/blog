@@ -1,0 +1,226 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+    vertical-align: top;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.page{
+	height: 100%;
+	width: auto;
+	position: relative;
+	top: 0;
+	width: 0;
+}
+
+.box{
+	width: 1300px;
+	height: 100%;
+	margin: 100px auto;
+	margin-top: 0px;
+}
+
+.header{
+	margin-top: 20px;
+	height: 70px;
+	width: 100%;
+	/*	background-color: red;*/
+	border-bottom: 3px solid #000;
+}
+
+.header a{
+	float: right;
+}
+
+.header a img{
+	height: 40px;
+	border-radius: 50%;
+}
+
+.neck{
+	height: 150px;
+	width: 1300px;
+/*	background-color: red;*/
+	border-bottom: 1px solid #ccc;
+}
+
+.neck a{
+	margin: 30px;
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	float: left;
+}
+
+.neck a img{
+	height: 80px;
+	border-radius: 50%;
+}
+
+.neck ul{
+	float: left;
+	height: 20px;
+/*	background-color: red;*/
+	margin: 65px;
+}
+
+.neck ul li{
+	float: left;
+/*	background-color: red;*/
+	width: 100px;
+	height: 50px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+/*	中间那个几个东西以后处理一下 可以使用<a>跟<span>组合*/
+}
+
+.neck ul li:nth-child(1):hover{
+	color: orangered;
+}
+
+.neck ul li:nth-child(3):hover{
+	color: orangered;
+}
+
+.neck ul li:nth-child(5):hover{
+	color: orangered;
+}
+
+.neck ul li:nth-child(7):hover{
+	color: orangered;
+}
+
+.neck ul li:nth-child(10):hover{
+	color: orangered;
+}
+
+.neck ul li:nth-child(2){
+	transform: rotate(10deg);
+	cursor: auto;
+/*	background-color: red;*/
+}
+
+.neck ul li:nth-child(4){
+	transform: rotate(10deg);
+	cursor: auto;
+}
+
+.neck ul li:nth-child(6){
+	transform: rotate(10deg);
+	cursor: auto;
+}
+
+.neck ul li:nth-child(8){
+	transform: rotate(10deg);
+	cursor: auto;
+}
+
+.row{
+	width: 1000px;
+	height: 3px;
+	float: left;
+	margin-left: 135px;
+}
+
+.row div{
+	float: left;
+	width: 150px;
+	height: 3px;
+	margin-left: 50px;
+}
+
+.selected{
+	display: block;
+	background-color: #000;
+}
+
+.body1{
+	height: 605px;
+	width: 1300px;
+/*	background-color: red;*/
+	margin-top: 20px;
+	position: relative;
+}
+
+.body1-left div{
+	height: 100px;
+	width: 200px;
+/*	background-color: red;*/
+	display: block;
+	line-height: 100px;
+	text-align: center; 
+	border: 1px solid #c0c0c0;
+	border-top: none;
+	border-right: none;
+	cursor: pointer;
+}	
+
+.body1-left div:nth-child(1){
+	border-top: 1px solid #c0c0c0;	
+}
+
+.selected2{
+	color: orangered;
+	text-decoration: underline;
+}
+
+.body1-right{
+	height: 605px;
+	width: 1100px;
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	border: 1px solid #c0c0c0;
+}
+
+.body1-right div{
+	float: left;
+	display: none;
+}
+
+.selected3{
+	display: block !important;
+	padding: 40px;
+}
+
+.selected3 a{
+	color: #000;
+}
+
+.selected3 a:hov{
+	color: #000;
+}
+
+.body2{
+	height: 605px;
+	width: 1300px;
+/*	background-color: red;*/
+	margin-top: 20px;
+	position: relative;
+}
+
+.body3{
+	height: 605px;
+	width: 1300px;
+/*	background-color: red;*/
+	margin-top: 20px;
+	position: relative;
+}
+
+.body4{
+	height: 605px;
+	width: 1300px;
+/*	background-color: red;*/
+	margin-top: 20px;
+	position: relative;
+}
+
+.unselected4{
+	display: none !important;
+}
